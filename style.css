@@ -5,9 +5,9 @@ body{
     color:white;
 }
 
-/* header */
 
-header{
+
+.cabeza{
     display:flex;
     align-items:center;
     justify-content:center;
@@ -21,9 +21,8 @@ header{
     font-size:22px;
 }
 
-/* card */
 
-.card{
+.c{
     width:80%;
     max-width:350px;
     margin:120px auto;
@@ -35,22 +34,21 @@ header{
     align-items:center;
 }
 
-.text h1{
+.texto h1{
     margin:0;
     font-size:40px;
 }
 
-.increase{
+.incremento{
     color:#2ecc71;
 }
 
-.month{
+.mes{
     color:#bbb;
 }
 
-/* icon */
 
-.icon{
+.icono{
     width:60px;
     height:60px;
     background:#5a3d28;
@@ -61,31 +59,3 @@ header{
     font-size:25px;
 }
 
-/* bottom */
-
-.bottom{
-    position:fixed;
-    bottom:0;
-    width:100%;
-    background:#eee;
-    padding:20px;
-}
-
-button{
-    width:100%;
-    padding:12px;
-    margin-bottom:10px;
-    border-radius:8px;
-    border:none;
-    font-size:16px;
-}
-
-.signup{
-    background:#1976d2;
-    color:white;
-}
-
-.login{
-    background:white;
-    border:1px solid #ccc;
-}
